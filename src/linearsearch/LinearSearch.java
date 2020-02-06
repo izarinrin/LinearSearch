@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package dsarray;
+package linearsearch;
 
 import static java.nio.file.Files.list;
 import static java.rmi.Naming.list;
@@ -44,7 +44,7 @@ public class LinearSearch {
             System.out.print("Search?: ");
             numsearch = Integer.parseInt(input.nextLine());
             if (numsearch > asksize - 1 || numsearch < 0) {
-                System.out.println("not on list uie, \nsobra or negative wa mi ana, \npang stop pd");
+                System.out.println("not on list, \nnumber too large, \nstop");
                 menu = 5;
             } else {
                 System.out.println("index @ " + arre.search(numsearch));
