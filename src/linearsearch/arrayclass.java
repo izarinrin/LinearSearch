@@ -159,7 +159,7 @@ public class arrayclass {
         fr = get_frange(); lr = get_lrange();
         System.out.println("");
         for (int k = fr; k <= lr; k++) {
-            System.out.print(flarray[k]+"@ index #"+ k+", ");
+            System.out.print(flarray[k]+" @ index #"+ k+", ");
         }
         System.out.println("");
     }
